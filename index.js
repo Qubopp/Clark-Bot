@@ -4,6 +4,7 @@ i'm not putting in effort lol
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
+var config = require('./config.js');
 
 const ClarkQuoteList = [
     'My train is very bouncy',
@@ -47,4 +48,4 @@ client.on('message', async msg => {
     
 });
 
-client.login('NzcxMTM2NjIyNzQ1ODc4NTU5.X5nu8Q.uix0T2VHdqMktQ6zwso_h139r7o');
+client.login('config.discordToken');
